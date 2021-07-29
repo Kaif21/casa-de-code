@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+
+    <!-- mixin JS -->
+    <script src="/casa-de-code/resources/js/jquery.mixitup.min.js"></script>
+
+    <!-- additional CSS -->
+    <link rel="stylesheet" href="/casa-de-code/resources/css/member.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid nav-con">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light mb-1">
+                    <div class="container">
+                        <a class="navbar-brand text-white fs-1 mb-2" href="#">Master</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="/casa-de-code/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-lg-2">
+        <div class="row">
+            <div class="col-md-4 mb-3 bg-c-lite-green rounded">
+                <div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center text-center">
+                            <img src="/casa-de-code/resources/img/kaif_profile.png" alt="kaif_profile"
+                                class="rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+                            <div class="mt-3 text-white fw-bold">
+                                <h4>Kaif Hossain- <span class="text-muted small">@kaif21</span></h4>
+                                <p>Newbie coder/Data entry expert/Dreamer<br>/ Master of CasaDeCode</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="social-buttons mt-5 text-center">
+                                <!-- facebook -->
+                                <button class="neo-button bg-dark">
+                                    <i class="fab fa-2x fa-telegram"></i></button>
+                                <!-- telegram -->
+                                <button class="neo-button bg-dark">
+                                    <i class="fab fa-2x fa-facebook"></i></button>
+                                <!-- mail -->
+                                <button class="neo-button bg-dark">
+                                    <i class="fas fa-2x fa-envelope"></i></button>
+                                <!-- github -->
+                                <button class="neo-button bg-dark">
+                                    <i class="fab fa-2x fa-github"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <div class="card-body text-white">
+                            <blockquote class="blockquote mb-0">
+                                <p>It’s fine to celebrate success, but it is more important to heed the lessons of
+                                    failure.
+                                <div><a href="https://en.wikipedia.org/wiki/Bill_Gates" target="_blank"
+                                        rel="noopener noreferrer" class="text-decoration-none text-white">-Bill
+                                        Gates</a>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8 ">
+                <ul id="filters" class="clearfix">
+                    <!-- <li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li> -->
+                    <li><span class="filter active" data-filter=".all">All</span></li>
+                    <li><span class="filter" data-filter=".app">App</span></li>
+                    <li><span class="filter" data-filter=".card">Card</span></li>
+                    <li><span class="filter" data-filter=".icon">Icon</span></li>
+                    <li><span class="filter" data-filter=".logo">Logo</span></li>
+                    <li><span class="filter" data-filter=".web">Web</span></li>
+                </ul>
+
+                <div id="profilelist">
+
+                    <div class="profile logo all " data-cat="logo">
+                        <div class="profile-wrapper ">
+                            <img src="/casa-de-code/resources/img/kaif_profile.png" alt="">
+                            <div class="label">
+                                <div class="label-text">
+                                    <a class="text-title text-white">Bird Document</a>
+                                    <span class="text-category">APP</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile app all" data-cat="app">
+                        <div class="profile-wrapper">
+                            <img src="https://kaif21.github.io/profile_awesome/img/vara_koto_pic.png" alt="">
+                            <div class="label">
+                                <div class="label-text">
+                                    <a class="text-title">Visual Infography</a>
+                                    <span class="text-category">APP</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile web all" data-cat="web">
+                        <div class="profile-wrapper">
+                            <img src="https://kaif21.github.io/profile_awesome/img/sell_with_dam_koto_pic.png" alt="">
+                            <div class="label">
+                                <div class="label-text">
+                                    <a class="text-title">Sonor's Design</a>
+                                    <span class="text-category">Web design</span>
+                                    <div class="my-5"></div>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile card all" data-cat="card">
+                        <div class="profile-wrapper">
+                            <img src="https://kaif21.github.io/profile_awesome/img/locator_eduportalbd_pic.png" alt="">
+                            <div class="label">
+                                <div class="label-text">
+                                    <a class="text-title">Typography Company</a>
+                                    <span class="text-category">Business card</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile app all" data-cat="app">
+                        <div class="profile-wrapper">
+                            <img src="img/profiles/app/3.jpg" alt="" />
+                            <div class="label">
+                                <div class="label-text">
+                                    <a class="text-title">Weatherette</a>
+                                    <span class="text-category">APP</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile card all" data-cat="card">
+                        <div class="profile-wrapper">
+                            <img src="img/profiles/card/4.jpg" alt="" />
+                            <div class="label">
+                                <div class="label-text">
+                                    <a class="text-title">BMF</a>
+                                    <span class="text-category">Business card</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile card all" data-cat="card">
+                        <div class="profile-wrapper">
+                            <img src="img/profiles/card/5.jpg" alt="" />
+                            <div class="label">
+                                <div class="label-text">
+                                    <a class="text-title">Techlion</a>
+                                    <span class="text-category">Business card</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>$(function () {
+
+            var filterList = {
+
+                init: function () {
+
+                    // MixItUp plugin
+                    // http://mixitup.io
+                    $('#profilelist').mixItUp({
+                        selectors: {
+                            target: '.profile',
+                            filter: '.filter'
+                        },
+                        load: {
+                            filter: '.all' // show app tab on first load
+                        }
+                    });
+
+                }
+
+            };
+
+            // Run the show!
+            filterList.init();
+
+        });</script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
