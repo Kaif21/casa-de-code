@@ -5,12 +5,12 @@ html {
 
 /* top section */
 .bg {
-  background-image: url(/resources/img/top_bg.svg);
+  background-image: url(../img/top_bg.svg);
   background-position: right;
 }
 
 .top-bg {
-  background-image: url(/resources/img/top_bg.svg);
+  background-image: url(../img/top_bg.svg);
   background-position: bottom;
   /* height: 90vh; */
 }
@@ -18,14 +18,14 @@ html {
 /* top section media */
 @media (max-width: 767.98px) {
   .bg {
-    background-image: url(/resources/img/top_bg.svg);
+    background-image: url(../img/top_bg.svg);
     background-position: left;
   }
 }
 
 /* our aim */
 .why-us {
-  background-image: url(/resources/img/top_section_bg.svg);
+  background-image: url(../img/top_section_bg.svg);
 }
 
 .why-us h2 {

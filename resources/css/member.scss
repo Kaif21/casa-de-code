@@ -1,9 +1,9 @@
 .nav-con {
-    background-image: url(/resources/img/top_bg.svg);
+    background-image: url(../img/top_bg.svg);
     background-position:bottom;
 }
 .bg-c-lite-green {
-    background-image: url(/resources/img/top_bg.svg);
+    background-image: url(../img/top_bg.svg);
     background-position: right;
 }
 .neo-button {
@@ -122,12 +122,12 @@
 
 @media (max-width: 767.98px) {
     .bg-c-lite-green {
-        background-image: url(/resources/img/top_bg.svg);
+        background-image: url(../img/top_bg.svg);
         background-position: left;
     }
 
     .nav-con {
-        background-image: url(/resources/img/top_bg.svg);
+        background-image: url(../img/top_bg.svg);
         background-position: inherit;
     }
 }
