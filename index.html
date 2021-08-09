@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="robots" content="index,follow">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
         integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA=="
@@ -14,13 +14,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"
         integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     <!-- slick.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
     <!-- additional css -->
     <link rel="stylesheet" href="./resources/css/main.min.css">
 
@@ -157,7 +154,7 @@
         </div>
     </section>
     <!-- End Why Us Section -->
-    <!-- projects -->
+    <!-- Skills-->
     <div class="container text-center my-5">
         <div class="row mb-5">
             <h1>We are mastering</h1>
@@ -165,22 +162,27 @@
         <div class="row multiple-items text-center">
             <div>
                 <i class="fab fa-5x fa-html5"></i>
+                <p>HTML5</p>
             </div>
             <div>
                 <i class="fab fa-5x  fa-css3-alt"></i>
+                <p>CSS3</p>
             </div>
             <div>
                 <i class="fab fa-5x fa-python"></i>
+                <p>Python</p>
             </div>
             <div>
                 <i class="fab fa-5x fa-wordpress"></i>
+                <p>Wordpress</p>
             </div>
             <div>
                 <i class="fab fa-5x fa-bootstrap"></i>
+                <p>Bootstrap 5</p>
             </div>
         </div>
     </div>
-    <!-- end of project -->
+    <!-- end of Skills -->
     <!-- our team -->
     <div class="container text-center justify-content-center">
 
@@ -191,7 +193,8 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                <div class="profile-card-2  mt-4"><a href="https://blacktron.netlify.app/" rel="noopener noreferrer" target="_blank">
+                <div class="profile-card-2  mt-4"><a href="https://blacktron.netlify.app/" rel="noopener noreferrer"
+                        target="_blank">
                         <img src="https://res.cloudinary.com/casadecode/image/upload/v1628451006/landing%20page/img/kaif_profile_xaagto.jpg"
                             alt="kaif_profile" loading="lazy" rel="noreferrer" class="img img-responsive"
                             style="width: 350px; height: 500px;"></a>
@@ -200,7 +203,8 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="profile-card-2  mt-4"><a href="./pages/members/member.html" rel="noopener noreferrer"  target="_blank">
+                <div class="profile-card-2  mt-4"><a href="./pages/members/member.html" rel="noopener noreferrer"
+                        target="_blank">
                         <img src="https://res.cloudinary.com/casadecode/image/upload/v1628451006/landing%20page/img/imty_profile_wrx9mc.jpg"
                             alt="kaif_profile" loading="lazy" rel="noreferrer" class="img img-responsive"
                             style="width: 350px; height: 500px;"></a>
@@ -209,7 +213,8 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="profile-card-2  mt-4"><a href="./pages/members/member.html" rel="noopener noreferrer"  target="_blank">
+                <div class="profile-card-2  mt-4"><a href="./pages/members/member.html" rel="noopener noreferrer"
+                        target="_blank">
                         <img src="https://res.cloudinary.com/casadecode/image/upload/v1628451006/landing%20page/img/eyeshot_khalid_qms7cd.jpg"
                             alt="kaif_profile" loading="lazy" rel="noreferrer" class="img img-responsive"
                             style="width: 350px; height: 500px;"></a>
@@ -218,7 +223,8 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="profile-card-2  mt-4"><a href="./pages/members/member.html" rel="noopener noreferrer" target="_blank">
+                <div class="profile-card-2  mt-4"><a href="./pages/members/member.html" rel="noopener noreferrer"
+                        target="_blank">
                         <img src="https://res.cloudinary.com/casadecode/image/upload/v1628451006/landing%20page/img/sakhwat_ckpdkj.jpg"
                             alt="kaif_profile" loading="lazy" rel="noreferrer" class="img img-responsive"
                             style="width: 350px; height: 500px;"></a>
@@ -251,48 +257,16 @@
         </div>
     </footer>
     <!-- end of footer -->
-    <script>
-        // skill
-        $('.multiple-items').slick({
-            dots: false,
-            infinite: true,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            slidesToShow: 5,
-            slidesToScroll: 2,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                    }
-                }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
-    </script>
+    <!-- CSS -->
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- slick css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- JS -->
+    <!-- myslick js -->
+    <script src="./resources/js/myslick.js"></script>
     <!-- font awesome -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
@@ -301,6 +275,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"
         integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- end of JS -->
 </body>
 
 </html>
