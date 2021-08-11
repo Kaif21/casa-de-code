@@ -78,59 +78,28 @@ html {
 /* end of our project */
 
 /* our team */
+.section-box-eleven{
 
-.profile-card-2 {
-  background-position: center;
-  overflow: hidden;
+  color: #fff;
   position: relative;
-  cursor: pointer;
+  overflow:hidden;
   border-radius: 10px;
 
-  img {
-    transition: all linear 0.25s;
-    filter: opacity(.9) drop-shadow(0 0 0 #ee5a6f);
-  }
-  .profile-name {
-    position: absolute;
-    left: 30px;
-    bottom: 70px;
-    font-size: 30px;
-    color: #FFF;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    transition: all linear 0.25s;
-  }
-  .profile-icons {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    color: #FFF;
-    transition: all linear 0.25s;
-  }
-  .profile-username {
-    position: absolute;
-    bottom: 50px;
-    left: 30px;
-    color: #FFF;
-    font-size: 13px;
-    transition: all linear 0.25s;
-  }
-  .profile-icons .fa {
-    margin: 5px;
-  }
 }
-.profile-card-2:hover {
-  img {
-  filter: grayscale(100%);
+.section-box-eleven figure {
+  position: absolute;
+  padding: 10px 15px;
+  width: 100%;
+  bottom: -4%;
+  transition: ease-in-out .5s;
+  background: rgba(0, 0, 0, 0.7);
+
 }
-.profile-name {
-  bottom: 80px;
-}
-.profile-username {
-  bottom: 60px;
-}
-.profile-icons {
-  right: 40px;
+.section-box-eleven:hover{
+  figure{
+  bottom: 5%;
+  transition: ease-in-out .9s;
 }
 }
+
 /* footer */
