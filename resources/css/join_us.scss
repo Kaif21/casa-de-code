@@ -132,7 +132,7 @@ background-image: url(../img/bg-01.jpg);
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: rgba(20%, 11%, 47%,.9);
+  background: rgba(20%, 11%, 47%,1);
 }
 
 .wrap-contact100 {
@@ -140,7 +140,6 @@ background-image: url(../img/bg-01.jpg);
   background: rgb(9%, 10%, 11%);
   border-radius: 10px;
   overflow: hidden;
-height: 550px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -148,12 +147,12 @@ height: 550px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 110px 130px 157px 148px;
+  padding: 1px 130px 157px 148px;
 }
 
 /*------------------------------------------------------------------
 [  ]*/
-.contact100-pic {
+.contact100-title {
   width: 310px;
   padding-top: 55px;
 }
@@ -334,7 +333,7 @@ textarea.input100 {
 
 @media (max-width: 992px) {
   .wrap-contact100 {
-    padding: 110px 80px 157px 90px;
+    padding: 1px 80px 157px 90px;
   }
 
   .contact100-pic {
@@ -362,7 +361,7 @@ textarea.input100 {
 
 @media (max-width: 576px) {
   .wrap-contact100 {
-    padding: 110px 15px 157px 15px;
+    padding: 1px 15px 15px 15px;
   }
 }
 
@@ -430,4 +429,56 @@ textarea.input100 {
     visibility: visible;
     opacity: 1;
   }
+}
+
+
+/* ===================== FILE INPUT ===================== */
+.file-area {
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+}
+.file-area input[type=file] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.file-area .file-dummy {
+  width: 100%;
+  padding: 30px;
+  background: black;
+  text-align: center;
+  transition: black 0.3s ease-in-out;
+  border-radius: 20px;
+}
+.file-area .file-dummy .success {
+  display: none;
+}
+.file-area:hover .file-dummy {
+  background: rgba(255, 255, 255, 0.1);
+}
+.file-area input[type=file]:focus + .file-dummy {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.file-area input[type=file]:valid + .file-dummy {
+  border-color: rgba(0, 255, 0, 0.4);
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.file-area input[type=file]:valid + .file-dummy .success {
+  display: inline-block;
+}
+.file-area input[type=file]:valid + .file-dummy .default {
+  display: none;
+}
+.form-group {
+width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
 }
