@@ -7,7 +7,8 @@
 
 body, html {
     height: 100%;
-    font-family: Montserrat-Regular, sans-serif
+    font-family: Montserrat-Regular, sans-serif;
+    background: #331C78 !important;
 }
 
 a {
@@ -139,11 +140,6 @@ button:hover {
 iframe {
     border: none !important
 }
-
-.bg {
-    background-image: url(../img/top_bg.svg);
-}
-
 .bg-contact100 {
     width: 100%;
     background-repeat: no-repeat;
@@ -153,7 +149,6 @@ iframe {
 
 .container-contact100 {
     width: 100%;
-    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
