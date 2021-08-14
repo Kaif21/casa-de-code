@@ -11,7 +11,7 @@ body, html {
     background: #331C78 !important;
 }
 
-a {
+/* a {
     font-family: Montserrat-Regular;
     font-size: 14px;
     line-height: 1.7;
@@ -25,11 +25,10 @@ a {
 
 a:focus {
     outline: none !important
-}
+} */
 
 a:hover {
     text-decoration: none;
-    color: #57b846
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,42 +56,6 @@ input {
 textarea {
     outline: none;
     border: none
-}
-
-textarea:focus, input:focus {
-    border-color: transparent !important
-}
-
-input:focus::-webkit-input-placeholder {
-    color: transparent
-}
-
-input:focus:-moz-placeholder {
-    color: transparent
-}
-
-input:focus::-moz-placeholder {
-    color: transparent
-}
-
-input:focus:-ms-input-placeholder {
-    color: transparent
-}
-
-textarea:focus::-webkit-input-placeholder {
-    color: transparent
-}
-
-textarea:focus:-moz-placeholder {
-    color: transparent
-}
-
-textarea:focus::-moz-placeholder {
-    color: transparent
-}
-
-textarea:focus:-ms-input-placeholder {
-    color: transparent
 }
 
 input::-webkit-input-placeholder {
@@ -193,7 +156,7 @@ iframe {
     display: block;
     font-family: Montserrat-ExtraBold;
     font-size: 24px;
-    color: #333333;
+    color: white;
     line-height: 1.2;
     text-align: left;
     padding-bottom: 36px
@@ -228,8 +191,8 @@ textarea.input100 {
     font-family: Montserrat-Bold;
     font-size: 15px;
     line-height: 1.5;
-    color: #666666;
-    background: black
+    color: white;
+    background: black;
 }
 
 .focus-input100 {
@@ -243,7 +206,7 @@ textarea.input100 {
     height: 100%;
     -webkit-box-shadow: 0px 0px 0px 0px;
     box-shadow: 0px 0px 0px 0px;
-    color: rgba(132, 106, 221, 0.5)
+    color: rgba(132, 106, 221, 0.5);
 }
 
 .input100:focus+.focus-input100 {
@@ -282,7 +245,7 @@ textarea.input100 {
     height: 100%;
     padding-left: 30px;
     pointer-events: none;
-    color: #aaaaaa;
+    color: white;
     font-size: 15px;
     -webkit-transition: all 0.4s;
     transition: all 0.4s
