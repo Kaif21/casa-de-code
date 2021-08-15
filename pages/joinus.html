@@ -88,7 +88,7 @@
           <p> Please fill up the form and let's get started.</p>
         </div>
 
-        <form class="contact100-form validate-form mt-5" action="https://formspree.io/f/xleaogpb" method="POST">
+        <form class="contact100-form validate-form mt-5" action="https://formspree.io/f/xleaogpb" method="POST" enctype="multipart/form-data">
           <!-- <span class="contact100-form-title text-center">
             Get in touch
           </span> -->
@@ -116,7 +116,7 @@
           </div>
           <div class="wrap-input100 validate-input mt-2">
             <div class="form-group file-area shadow-sm">
-              <input type="file" name="upload" id="images" multiple="multiple" />
+              <input type="file" name="upload"/>
               <div class="file-dummy">
                 <div class="default">
                   <span class="text-white">
@@ -128,7 +128,7 @@
             </div>
           </div>
           <div class="container-contact100-form-btn">
-            <button class="contact100-form-btn text-white  shadow">
+            <button type="submit" class="contact100-form-btn text-white  shadow">
               Send
             </button>
           </div>
